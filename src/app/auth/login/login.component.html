@@ -1,0 +1,26 @@
+<section class="header">
+  <mat-card>
+    <a RouterLink=''><img src="{{logoName}}"></a>
+  </mat-card>
+  <mat-card class="banner">
+    <div class="row">
+         <h1 class="title">FullStack Work Shop</h1>
+    </div>
+    <div class="row">
+      <div class="col-md-4 welcome">
+         <h1 class="msg">Digital Lync<br>welcomes<br>You to</h1>
+      </div>
+      <div class="col-md-8">
+              <form class="form-control" #loginForm='ngForm' (ngSubmit)='login(loginForm.value)'>
+              <h1 class="logTitle">LOGIN</h1>
+              <mat-form-field class="form-field" appearance="legacy">
+                <input matInput="Email" placeholder="Email">
+              </mat-form-field>
+            </form>
+      </div>
+    </div>
+  </mat-card>
+</section>
+<main>
+
+</main>
