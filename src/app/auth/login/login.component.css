@@ -20,17 +20,20 @@
     color: white;
     font-weight: 700;
 }
-.form-control {
+.form1 {
     height: 500px;
     width: 450px;
     margin-top: 180px;
-    margin-left: 500px;
     border-radius: 18px;
   }
 .form-field{
     display: flex;
     flex-direction: column;
-    margin-top: 50px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.setpassword{
+    margin-bottom: 50px;
 }
 .logTitle{
     text-align: center;

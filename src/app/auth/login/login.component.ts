@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./login.component.css']
 })
 export class LoginComponent implements OnInit {
-  logoName: string ='../../assets/logo.svg';
+  logoName: string ="../../../assets/logo.svg";
   constructor() { }
 
   ngOnInit() {
